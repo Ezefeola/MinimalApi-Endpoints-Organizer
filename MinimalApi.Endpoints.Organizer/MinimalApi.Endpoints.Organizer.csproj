@@ -20,7 +20,7 @@
 			user to create a base configuration class and pass it over every endpoint that implements the IEndpoint interface.
 		</Description>
 
-		<RepositoryUrl></RepositoryUrl>
+		<RepositoryUrl>https://github.com/Ezefeola/MinimalApi-Endpoints-Organizer</RepositoryUrl>
 
 		<PackageTags>minimal-api; endpoints; aspnet-core; abstraction; router;</PackageTags>
 	</PropertyGroup>
