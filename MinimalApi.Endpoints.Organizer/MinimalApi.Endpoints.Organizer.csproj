@@ -6,7 +6,13 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="Docs\Readme.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
 	<PropertyGroup>
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+		
 		<IsPackable>true</IsPackable>
 
 		<PackageId>EFeola.MinimalApi.Endpoints.Organizer</PackageId>
@@ -27,5 +33,9 @@
 
 	<ItemGroup>
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.8" />
 	</ItemGroup>
 </Project>
