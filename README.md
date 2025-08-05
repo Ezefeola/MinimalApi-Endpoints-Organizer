@@ -30,8 +30,8 @@ public class UserEndpointsConfiguration : EndpointsConfiguration
 {
     public UserEndpointsConfiguration()
     {
-        .WithPrefix("/users/v2")
-        .WithTags("Users", "User Management")
+        .WithPrefix("/users/v2");
+        .WithTags("Users", "User Management");
         .WithOpenApi(true);
     }
 }
@@ -53,7 +53,7 @@ public class GetUsersEndpoint : IEndpoint<UserEndpointsConfiguration>
 
     private static async Task<string> GetUsersHandler() 
     {
-        return "¡users!";
+        return "users";
     }
 }
 ```
