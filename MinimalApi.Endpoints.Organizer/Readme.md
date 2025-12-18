@@ -1,6 +1,6 @@
 # MinimalApi.Endpoints.Organizer
 
-[![NuGet Version](https://img.shields.io/nuget/v/EFeola.MinimalApi.Endpoints.Organizer)](https://www.nuget.org/packages/EFeola.MinimalApi.Endpoints.Organizer/)
+[![NuGet Version](https://img.shields.io/nuget/v/MinimalApi.Endpoints.Organizer)](https://www.nuget.org/packages/.MinimalApi.Endpoints.Organizer/)
 
 An elegant and robust abstraction for organizing and configuring Minimal API endpoints.
 
